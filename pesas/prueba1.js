@@ -38,9 +38,13 @@ function levanta(){var j = 600;
         }
         console.log(fallo);
         $("#pesas").css({ top: j + "px" });  
-        //Para el crono cuando la pesa llega arriba 
-        if(j == 500){
+        //Para el crono cuando la pesa llega arriba y guarda el tiempo tardado 
+        if(j == 400){
             clearInterval(crono);
+            var resultado = $("#output").text();
+            $("#output").text("Tu puntuación ha sido " + resultado);
+            
+
 
 
         }
@@ -61,7 +65,7 @@ function levanta(){var j = 600;
 //Cronometro
 function demo() {
     var seconds = 36005;
-    var $output = document.querySelector('.output');
+    var $output = document.querySelector('#output');
 
     return function() {
         if (seconds >= 0) {
@@ -72,11 +76,6 @@ function demo() {
     }
 }
 
-function saveScore(seconds){
-    var final = seconds;
-    return final;
-
-}
 
 function formatSeconds(secs) {
     function pad(n) {
@@ -87,6 +86,10 @@ function formatSeconds(secs) {
     var s = Math.floor(secs - h * 3600 - m * 60);
     var temp = pad(m) + ":" + pad(s);
     return temp;
+}
+
+function muestraResultado(resultado){
+    alert(resultado);
 }
 
 
