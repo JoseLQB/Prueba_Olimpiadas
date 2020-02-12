@@ -85,6 +85,8 @@ function juegoPrincipal(){
     congela_gif("corredor1");
     congela_gif("corredor2");
     congela_gif("corredor3");
+    var puntuacion = 100/// Será la puntuación que se envía a la BBDD
+
     }, 11000);
 }
 //Velocidad de los corredores
@@ -106,11 +108,15 @@ function resultados(select, winner){
         $("#result").append(resultados3);    
     }else{
         var resultados3 = $("<p>").text("Mala suerte, has perdido tu apuesta");
-        $("#result").append(resultados3);   
+        $("#result").append(resultados3);  
+        youWin = false; 
     }
     var sonic = $("<img id='sonic' src='images/sonic.gif'>");
     $("#carrera").append(sonic);
+
+
 }
+//Desactiva el gif
 function congela_gif(src) {
     i = document.getElementById(src);
     var c = document.createElement('canvas');
@@ -125,6 +131,7 @@ function congela_gif(src) {
             i.parentNode.replaceChild(c, i);
     }
 }
+//Activa el gif
 function descongela_gif(src, corr) {
     $(src).attr("src", "images/" + corr);
 }
