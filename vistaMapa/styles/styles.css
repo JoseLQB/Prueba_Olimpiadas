@@ -1,6 +1,11 @@
 *{
 	padding: 0;
 	margin: 0;
+    font-family: "arcade";
+}
+@font-face {
+    font-family: "arcade";
+    src: url("../fuentes/arcade.TTF");
 }
 
 body{
@@ -50,7 +55,7 @@ body #cabecera{
 }
 
 #castillo{
-    top: 9%; 
+    top: 11%; 
     left: 85%;
     position: absolute;
 }
