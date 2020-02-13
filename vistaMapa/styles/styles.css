@@ -1,0 +1,120 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	height: 100%;
+    width: 100%;
+    background-color:rgb(2, 2, 36);
+    user-select: none;
+}
+body #cabecera{
+    background-color: red;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+#principal{
+    margin-top: -1%;
+    background-image: url(../images/running-marathon-ppt-backgrounds.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 60%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+
+}
+
+#tubo{
+    margin-left: 1%;
+    margin-top: 10.5%;
+    position: absolute;
+    z-index: 1;
+}
+#tubo>img{
+    width: 110px;
+ 
+}
+
+#mario{
+    margin-left: 2%;
+    /*margin-top: 5%;*/
+    margin-top: 5%;
+    position: absolute;
+    z-index: 0;
+}
+#mario>img{
+    width: 80px;
+}
+
+#castillo{
+    top: 9%; 
+    left: 85%;
+    position: absolute;
+}
+#castillo>img{
+    width: 150px;
+}
+
+#quien>img{
+    width: 120px;
+}
+#quien{
+    position: absolute;
+    left: 20%;
+    margin-top: 4%;
+    z-index: -1;
+}
+#quien>img{
+    width: 120px;
+    border-radius: 20px;
+}
+
+
+
+
+#lanza>img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+#lanza{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    z-index: -1;
+}
+#trivial>img{
+    width: 120px;
+    border-radius: 20px;
+}
+#trivial{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
+#apuesta>img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+#apuesta{
+    position: absolute;
+    left: 50%;
+    margin-top: 4%;
+    z-index: -1;
+}
+#pesas>img{
+    width: 120px;
+    border-radius: 20px;
+}
+#pesas{
+    position: absolute;
+    left: 70%;
+    margin-top: 4%;
+    z-index: -1;
+}
+

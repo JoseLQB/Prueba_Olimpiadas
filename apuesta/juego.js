@@ -88,6 +88,7 @@ function juegoPrincipal(){
     var puntuacion = 100/// Será la puntuación que se envía a la BBDD
 
     }, 11000);
+    setTimeout(function (){window.location.replace("../vistaMapa/selectGame.html")}, 14000);
 }
 //Velocidad de los corredores
 function velocidad(a,b) {
