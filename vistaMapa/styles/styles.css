@@ -11,7 +11,7 @@
 body{
 	height: 100%;
     width: 100%;
-    background-color:rgb(2, 2, 36);
+    background-image: url(../images/map.jpg);
     user-select: none;
 }
 body #cabecera{
@@ -23,7 +23,6 @@ body #cabecera{
 }
 #principal{
     margin-top: -1%;
-    background-image: url(../images/running-marathon-ppt-backgrounds.jpg);
     background-repeat: no-repeat;
     padding-bottom: 60%;
     margin-left: 1%;
@@ -64,7 +63,8 @@ body #cabecera{
 }
 
 #quien>img{
-    width: 120px;
+    width: 120px;-webkit-box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93); 
+    box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93);
 }
 #quien{
     position: absolute;
@@ -74,7 +74,8 @@ body #cabecera{
 }
 #quien>img{
     width: 120px;
-    border-radius: 20px;
+    border-radius: 20px;-webkit-box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93); 
+    box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93);
 }
 
 
@@ -83,7 +84,8 @@ body #cabecera{
 #lanza>img{
     width: 120px;
     height: 120px;
-    border-radius: 20px;
+    border-radius: 20px;-webkit-box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93); 
+    box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93);
 }
 #lanza{
     position: absolute;
@@ -93,7 +95,8 @@ body #cabecera{
 }
 #trivial>img{
     width: 120px;
-    border-radius: 20px;
+    border-radius: 20px;-webkit-box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93); 
+    box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93);
 }
 #trivial{
     position: absolute;
@@ -104,7 +107,8 @@ body #cabecera{
 #apuesta>img{
     width: 120px;
     height: 120px;
-    border-radius: 20px;
+    border-radius: 20px;-webkit-box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93); 
+    box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93);
 }
 #apuesta{
     position: absolute;
@@ -114,7 +118,8 @@ body #cabecera{
 }
 #pesas>img{
     width: 120px;
-    border-radius: 20px;
+    border-radius: 20px;-webkit-box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93); 
+    box-shadow: 1px 1px 17px 6px rgba(236,236,236,0.93);
 }
 #pesas{
     position: absolute;

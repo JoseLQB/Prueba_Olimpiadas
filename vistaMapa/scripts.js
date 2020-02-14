@@ -28,3 +28,7 @@ function movimientoMario(){
         $("#mario").animate({left: "85%",}, 3100);
     }
 }
+
+function winner(){
+    $()
+}
